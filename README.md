@@ -1,19 +1,26 @@
-# Number-Recognition
+# Handwritten Digit Recognition
 
-## Bharat Data Science Intern
+A neural-network project for recognizing handwritten digits using the MNIST dataset.
 
-Handwritten digit recognition system not only detects
-scanned images of handwritten digits.Handwritten digit
-recognition using MNIST dataset is a major project made
-with the help of Neural Network. It basically detects
-the scanned images of handwritten digits.
+## Overview
 
-# Handwritten Digit Recognition using Neural Networks
+The project documentation describes a Keras neural network with hidden layers using ReLU activation and a softmax classification output.
 
-- This project demonstrates the implementation of a neural network-based system for recognizing handwritten digits. Trained on the well-known MNIST dataset, which consists of scanned images of handwritten digits, the system achieves accurate classification results.
+## Workflow
 
-- Using Python and the Keras library, a neural network model is constructed with two hidden layers and ReLU activation functions. The model is trained on the MNIST dataset, optimizing its performance through the Adam optimizer and categorical cross-entropy loss.
+1. Load the MNIST dataset.
+2. Normalize image pixel values.
+3. Prepare labels for classification.
+4. Train the neural network using the Adam optimizer.
+5. Evaluate on held-out test data.
+6. Predict the class of an individual digit image.
 
-- The trained model's accuracy is evaluated on a separate test dataset, providing insights into its effectiveness in recognizing handwritten digits. The achieved accuracy score showcases the model's reliability.
+## Concepts
 
-- Additionally, the project includes an example of using the trained model to predict the digit in a single image. By passing the image through the neural network, the predicted digit is obtained, showcasing the system's capability for individual digit recognition.
+Image preprocessing, neural networks, multiclass classification, model evaluation, and inference.
+
+## Repository
+
+[View source code](https://github.com/Tanmoy-2001/Number_Recognization_Task3)
+
+Record the actual test metrics from a fresh run before publishing performance claims.
